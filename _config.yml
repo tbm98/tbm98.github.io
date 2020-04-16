@@ -1,9 +1,10 @@
 title: TBM98's Blog
+logo: /assets/logo.jpg
 author:
   name: tbm98
   email: tbm98.dev@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  footer
+  footer hihi 
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -14,8 +15,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    # twitter: jekyllrb
+    github:  tbm98
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
@@ -40,7 +41,7 @@ minima:
 
     # GitLab instances
     gitlab:
-    - username: jekyll
+    - username: tbm98
     #   instance: example.com
     # - username: jekyll2
     #   instance: example.com

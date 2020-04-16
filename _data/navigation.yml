@@ -1,0 +1,16 @@
+# main links links
+main:
+  - title: "Flutter"
+    url: /categories/#flutter/
+
+  - title: "Competitive programming"
+    url: /categories/#competitive-programming/
+
+  - title: "Git"
+    url: /categories/#git/
+
+  - title: "Archive"
+    url: /archive/
+
+  - title: "About"
+    url: /

@@ -26,10 +26,10 @@ en: &DEFAULT_EN
   powered_by            : "Powered by"
   website_label         : "Website"
   email_label           : "Email"
-#en-US:
-#  <<: *DEFAULT_EN
-#en-UK:
-#  <<: *DEFAULT_EN
+en-US:
+  <<: *DEFAULT_EN
+en-UK:
+  <<: *DEFAULT_EN
 
 # Another locale
 # --------------

@@ -8,3 +8,4 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v6.0"></script>
 <div class="fb-like" data-href="https://duongvanson.github.io/blog/hello" data-width="500" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+<div class="fb-comments" data-href="https://duongvanson.github.io/blog/hello" data-width="500" data-numposts="10"></div>

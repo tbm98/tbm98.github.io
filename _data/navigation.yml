@@ -1,7 +1,13 @@
 # main links links
 main:
-  - title: "Titanic Tutorial"
-    url: /kaggle-titanic-tutorial/getting-started-with-r/
+  - title: "Flutter"
+    url: /categories/#flutter/
+
+  - title: "Competitive programming"
+    url: /categories/#competitive-programming/
+
+  - title: "Git"
+    url: /categories/#git/
 
   - title: "Archive"
     url: /archive/

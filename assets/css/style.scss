@@ -1,0 +1,51 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+@media (min-width: 64em){.page__footer-follow{padding-left:21.18644%}}.page__footer-follow ul{margin:0;padding:0;list-style-type:none}.page__footer-follow li{display:inline-block;padding-top:5px;padding-bottom:5px;font-family:-apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size:0.75em;text-transform:uppercase}.page__footer-follow li+li:before{content:"";padding-right:5px}.page__footer-follow a{padding-right:10px;font-weight:bold}
+.page__meta{
+    margin-bottom: 30px;
+}
+.center{
+    text-align: center;
+}
+.pagination li a.disabled{color:#bdc1c4;pointer-events:none;cursor:not-allowed}.pagination li:first-child{margin-left:0}.pagination li:first-child a{border-top-left-radius:4px;border-bottom-left-radius:4px}.pagination li:last-child a{border-top-right-radius:4px;border-bottom-right-radius:4px}.pagination--pager{display:block;padding:1em 2em;float:left;width:50%;font-family:-apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size:1em;font-weight:bold;text-align:center;text-decoration:none;color:#9ba1a6;border:1px solid #bdc1c4;border-radius:4px}.pagination--pager:hover{color:#3e8296}.pagination--pager:first-child{border-top-right-radius:0;border-bottom-right-radius:0}.pagination--pager:last-child{margin-left:-1px;border-top-left-radius:0;border-bottom-left-radius:0}.pagination--pager.disabled{color:#bdc1c4;pointer-events:none;cursor:not-allowed}
+.pagination{clear:both;width:100%;float:left;margin-left:0;margin-right:0;margin-bottom:30px;clear:both;margin-top:1em;padding-top:1em}.pagination::after{clear:both;content:"";display:table}.pagination ul{margin:0;padding:0;list-style-type:none;font-family:-apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif}.pagination li{display:block;float:left;margin-left:-1px}.pagination li a{margin-bottom:0.25em;padding:0.5em 1em;font-family:-apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;font-size:14px;font-weight:bold;line-height:1.5;text-align:center;text-decoration:none;color:#9ba1a6;border:1px solid #bdc1c4;border-radius:0}.pagination li a:hover{color:#3e8296}.pagination li a.current{color:#fff;background:#7a8288}
+.avatar {
+  border-radius: 50%;
+  width:100px;
+  height:100px;
+}
+
+    /* Set additional styling options for the columns */
+    .column {
+    float: left;
+    }
+
+    /* Set width length for the left, right and middle columns */
+    .left {
+    width: 20%;
+    }
+
+    .middle {
+    width: 30%;
+    }
+
+    .right {
+    width: 50%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

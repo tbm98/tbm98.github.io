@@ -1,3 +1,5 @@
+show_downloads: true
+theme: jekyll-theme-cayman
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -18,14 +20,14 @@ teaser                   : default-header.png
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "facebook", "google-plus", custom"
+  provider               : "facebook" #"disqus" # false (default), "disqus", "facebook", "google-plus", custom"
   disqus:
     shortname            : "tbm98" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid                : 578828196061090
+    num_posts            : 5 #(default)
+    colorscheme          : "light" #(default), "dark"
 
 
 defaults:
@@ -127,7 +129,7 @@ exclude:
   - Capfile
   - CHANGELOG
   - config
-  - Gemfile
+  - Gemfile-old
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
@@ -172,7 +174,8 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
-gems:
+#gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist

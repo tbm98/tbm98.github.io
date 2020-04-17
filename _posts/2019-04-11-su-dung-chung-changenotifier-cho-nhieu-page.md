@@ -3,7 +3,6 @@ title: Sử dụng chung ChangeNotifier cho nhiều page trong Flutter
 excerpt: Sử dụng chung ChangeNotifier cho nhiều page trong Flutter
 category: flutter
 ---
-# Sử dụng chung ChangeNotifier cho nhiều page
 
 ## Vấn đề ?
 

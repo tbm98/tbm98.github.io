@@ -1,15 +1,23 @@
-<header class="page-header" role="banner">
-    <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+{% include base_path %}
+
+{% if page.author %}
+{% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+<header class="page-header2" >
+        <a href="{{ base_path }}/">
+            {% if author.avatar contains "http" %}
+            <img class="avatar" src="{{ author.avatar }}" alt="{{ author.name }}">
+            {% else %}
+            <img class="avatar" src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}"
+            alt="{{ author.name }}">
+            {% endif %}
+        </a>
     <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-    {% if site.github.is_project_page %}
-    <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-    {% endif %}
-    {% if site.show_downloads %}
+
     <a href="/" class="btn">Home</a>
     <a href="/categories/#flutter/" class="btn">Flutter</a>
     <a href="/categories/#competitive-programming/" class="btn">Competitive programming</a>
     <a href="/categories/#git/" class="btn">Git</a>
     <a href="/archive/" class="btn">Archive</a>
     <a href="/about/" class="btn">About</a>
-    {% endif %}
 </header>

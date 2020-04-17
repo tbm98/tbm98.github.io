@@ -648,6 +648,21 @@ a {
     .page-header {
       padding: 2rem 1rem; } }
 
+.page-header2 {
+  color: #fff;
+  text-align: center;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957); }
+  @media screen and (min-width: 64em) {
+    .page-header2 {
+      padding: 1.5rem 2rem; } }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    .page-header2 {
+      padding: 0.75rem 1.25rem; } }
+  @media screen and (max-width: 42em) {
+    .page-header2 {
+      padding: 0.75rem 0.25rem; } }
+
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem; }
@@ -959,3 +974,34 @@ a {
 .pagination li a.current {
   color: #fff;
   background: #7a8288; }
+
+.avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px; }
+
+/* Set additional styling options for the columns */
+.column {
+  float: left; }
+
+/* Set width length for the left, right and middle columns */
+.left {
+  width: 20%; }
+
+.middle {
+  width: 30%; }
+
+.right {
+  width: 50%; }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }

@@ -1,0 +1,28 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% capture teaser %}{{ site.teaser }}{% endcapture %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+      {% if post.link %}
+      <a href="{{ post.link }}" target="_blank">
+        {% else %}
+        <a href="{{ base_path }}{{ post.url }}">
+          {% endif %}
+      <h2 class="archive__item-title" itemprop="headline">{% if post.id %}{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}{% else %}{{ post.title }}{% endif %}{% if post.link %}<i class="fa fa-star" aria-hidden="true"></i>{% endif %}</h2>
+        </a>
+
+      {% if post.read_time %}
+        <p style="color:grey;"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+      {% endif %}
+
+      {% if post.excerpt %}<p style="color:grey;" class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    </article>
+    <hr>
+</div>

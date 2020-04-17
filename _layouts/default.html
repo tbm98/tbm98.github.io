@@ -1,62 +1,37 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
-
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
+    {% include head.html %}
+    {% include head/custom.html %}
+    {% if page.noindex %}
+      <!-- meta robots -->
+ 	  <meta name="robots" content="noindex" />
     {% endif %}
-    <meta charset="UTF-8">
-
-{% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
+
   <body>
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v6.0&appId=191447461636871&autoLogAppEvents=1"></script>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-      {%- include header.html -%}
+    {% include header.html %}
+    {% include browser-upgrade.html %}
+
     <main id="content" class="main-content" role="main">
-      {{ content }}
-        <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="" data-numposts="5"></div>
+    {{ content }}
 
-      {%- include footer.html -%}
-      <nav class="post-navigation">
-        {% if page.next.url %}
-        <a class="nav-link" href="{{page.next.url}}">
-          <div>
-            <div class="nav-meta">Previous</div>
-            <span class="nav-title">{{page.next.title}}</span>
-          </div>
-        </a>
-        {% endif %}
-        {% if page.previous.url %}
-        <a class="nav-link" href="{{page.previous.url}}">
-          <div>
-            <div class="nav-meta">Next</div>
-            <span class="nav-title">{{page.previous.title}}</span>
-          </div>
-        </a>
-        {% endif %}
-        <div class="nav-link post-related">
-          <div class="nav-meta">You might also like</div>
-          <ul>
-            {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
-            {% for post in posts %}
-            {% include related-post.html %}
-            {% endfor %}
-          </ul>
-        </div>
-      </nav>
+    <div class="page__footer">
+      <footer>
+        {% include footer.html %}
+      </footer>
+    </div>
     </main>
+
+    {% include scripts.html %}
+    {% include footer/custom.html %}
+
   </body>
 </html>

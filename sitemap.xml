@@ -3,23 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tbm98.github.io/categories/</loc>
-    <lastmod>2020-04-24T17:11:55+07:00</lastmod>
+    <loc>https://tbm98.github.io/tags/flutter/</loc>
+    <lastmod>2020-04-24T14:11:02+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tbm98.github.io/categories/flutter/</loc>
-    <lastmod>2020-04-24T17:11:55+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tbm98.github.io/posts/my-first-post-2/</loc>
-    <lastmod>2020-04-24T17:11:55+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tbm98.github.io/tags/tag/</loc>
-    <lastmod>2020-04-24T17:11:55+07:00</lastmod>
+    <loc>https://tbm98.github.io/posts/su-dung-chung-changenotifier-cho-nhieu-page-flutter/</loc>
+    <lastmod>2020-04-24T14:11:02+07:00</lastmod>
   </url>
   
   <url>
@@ -29,21 +19,6 @@
   
   <url>
     <loc>https://tbm98.github.io/about/</loc>
-    <lastmod>2020-04-24T17:11:55+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tbm98.github.io/tags/privacy/</loc>
-    <lastmod>2020-04-24T17:11:55+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tbm98.github.io/posts/my-first-post/</loc>
-    <lastmod>2020-04-24T17:11:55+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tbm98.github.io/tags/shortcodes/</loc>
     <lastmod>2020-04-24T17:11:55+07:00</lastmod>
   </url>
   
@@ -60,6 +35,10 @@
   <url>
     <loc>https://tbm98.github.io/</loc>
     <lastmod>2020-04-24T17:11:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tbm98.github.io/categories/</loc>
   </url>
   
   <url>

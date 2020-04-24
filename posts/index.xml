@@ -23,11 +23,11 @@
       
       <item>
         <title>Sử dụng chung ChangeNotifier cho nhiều page trong Flutter</title>
-        <link>https://tbm98.github.io/posts/my-first-post-2/</link>
+        <link>https://tbm98.github.io/posts/su-dung-chung-changenotifier-cho-nhieu-page-flutter/</link>
         <pubDate>Fri, 24 Apr 2020 14:11:02 +0700</pubDate>
         <author>tbm98.dev@gmail.com (tbm98)</author>
-        <atom:modified>Fri, 24 Apr 2020 17:11:55 +0700</atom:modified>
-        <guid>https://tbm98.github.io/posts/my-first-post-2/</guid>
+        <atom:modified>Fri, 24 Apr 2020 14:11:02 +0700</atom:modified>
+        <guid>https://tbm98.github.io/posts/su-dung-chung-changenotifier-cho-nhieu-page-flutter/</guid>
         <description>Vấn đề ? Mình có 1 page là profile và login, ở profile mình sử dụng ChangeNotifierProvider để cung cấp một lớp ChangeNotifier (tạm gọi là lớp state) có nhiệm vụ lưu giữ thông tin user hiện tại. Trong trường hợp chưa đăng nhập thì sẽ hiển thị nút đăng nhập yêu cầu chuyển sang page login để người dùng đăng nhập. Sau khi đăng nhập xong sẽ pop quay trở lại page profile.</description>
         
         <dc:creator>tbm98</dc:creator>
@@ -37,41 +37,7 @@
         
           
             
-              <category>tag</category>
-            
-          
-        
-        
-          
-            
               <category>flutter</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>Rich Content 2 </title>
-        <link>https://tbm98.github.io/posts/my-first-post/</link>
-        <pubDate>Thu, 23 Apr 2020 12:00:06 +0900</pubDate>
-        <author>tbm98.dev@gmail.com (tbm98)</author>
-        <atom:modified>Fri, 24 Apr 2020 17:11:55 +0700</atom:modified>
-        <guid>https://tbm98.github.io/posts/my-first-post/</guid>
-        <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-        
-        <dc:creator>Lee</dc:creator>
-        <media:content url="https://tbm98.github.ioimages/feature2/content.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>shortcodes</category>
-            
-          
-            
-              <category>privacy</category>
             
           
         

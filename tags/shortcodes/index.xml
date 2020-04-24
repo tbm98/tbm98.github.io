@@ -27,36 +27,8 @@
         <link>https://tbm98.github.io/posts/my-first-post/</link>
         <pubDate>Thu, 23 Apr 2020 12:00:06 +0900</pubDate>
         <author>tbm98.dev@gmail.com (tbm98)</author>
-        <atom:modified>Thu, 23 Apr 2020 12:00:06 +0900</atom:modified>
+        <atom:modified>Fri, 24 Apr 2020 17:11:55 +0700</atom:modified>
         <guid>https://tbm98.github.io/posts/my-first-post/</guid>
-        <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-        
-        <dc:creator>Lee</dc:creator>
-        <media:content url="https://tbm98.github.ioimages/feature2/content.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>shortcodes</category>
-            
-          
-            
-              <category>privacy</category>
-            
-          
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Rich Content</title>
-        <link>https://tbm98.github.io/posts/rich-content/</link>
-        <pubDate>Thu, 19 Dec 2019 12:00:06 +0900</pubDate>
-        <author>tbm98.dev@gmail.com (tbm98)</author>
-        <atom:modified>Thu, 19 Dec 2019 12:00:06 +0900</atom:modified>
-        <guid>https://tbm98.github.io/posts/rich-content/</guid>
         <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
         
         <dc:creator>Lee</dc:creator>

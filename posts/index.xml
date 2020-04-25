@@ -26,7 +26,7 @@
         <link>https://tbm98.github.io/posts/su-dung-chung-changenotifier-cho-nhieu-page-flutter/</link>
         <pubDate>Fri, 24 Apr 2020 14:11:02 +0700</pubDate>
         <author>tbm98.dev@gmail.com (tbm98)</author>
-        <atom:modified>Fri, 24 Apr 2020 14:11:02 +0700</atom:modified>
+        <atom:modified>Fri, 24 Apr 2020 22:30:00 +0700</atom:modified>
         <guid>https://tbm98.github.io/posts/su-dung-chung-changenotifier-cho-nhieu-page-flutter/</guid>
         <description>Vấn đề ? Mình có 1 page là profile và login, ở profile mình sử dụng ChangeNotifierProvider để cung cấp một lớp ChangeNotifier (tạm gọi là lớp state) có nhiệm vụ lưu giữ thông tin user hiện tại. Trong trường hợp chưa đăng nhập thì sẽ hiển thị nút đăng nhập yêu cầu chuyển sang page login để người dùng đăng nhập. Sau khi đăng nhập xong sẽ pop quay trở lại page profile.</description>
         

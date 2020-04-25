@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tbm98.github.io/tags/git/</loc>
+    <lastmod>2020-04-25T23:41:24+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tbm98.github.io/posts/gitignore-khong-hoat-dong/</loc>
+    <lastmod>2020-04-25T23:41:24+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tbm98.github.io/tags/</loc>
+    <lastmod>2020-04-25T23:41:24+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tbm98.github.io/tags/flutter/</loc>
     <lastmod>2020-04-24T22:30:00+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://tbm98.github.io/posts/su-dung-chung-changenotifier-cho-nhieu-page-flutter/</loc>
-    <lastmod>2020-04-24T22:30:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tbm98.github.io/tags/</loc>
     <lastmod>2020-04-24T22:30:00+07:00</lastmod>
   </url>
   

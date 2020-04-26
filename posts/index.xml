@@ -26,7 +26,7 @@
         <link>https://tbm98.github.io/posts/gitignore-khong-hoat-dong/</link>
         <pubDate>Sat, 25 Apr 2020 23:41:24 +0700</pubDate>
         <author>tbm98.dev@gmail.com (tbm98)</author>
-        <atom:modified>Sat, 25 Apr 2020 23:41:24 +0700</atom:modified>
+        <atom:modified>Sun, 26 Apr 2020 00:55:08 +0700</atom:modified>
         <guid>https://tbm98.github.io/posts/gitignore-khong-hoat-dong/</guid>
         <description>Vấn đề Mình đã gặp trường hợp là rõ ràng đã thêm một vài file vào .gitignore rồi nhưng thi thoảng vẫn thấy sự thay đổi của nó hiện lên git status. Vậy nguyên nhân là gì? Có phải git bị lỗi không?
 Ví dụ trong project hiện tại mình đang code, bây giờ mình không muốn up file main.dart lên mỗi khi thay đổi nó nữa. Như ở đây là file main.</description>

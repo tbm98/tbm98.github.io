@@ -43,24 +43,6 @@
 
       
       <item>
-        <title>New Post</title>
-        <link>https://tbm98.github.io/posts/new-post/</link>
-        <pubDate>Tue, 02 Jun 2020 16:38:36 +0700</pubDate>
-        <author>tbm98.dev@gmail.com (tbm98)</author>
-        <atom:modified>Wed, 03 Jun 2020 10:48:48 +0700</atom:modified>
-        <guid>https://tbm98.github.io/posts/new-post/</guid>
-        <description>Hello </description>
-        
-        <dc:creator>tbm98</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>Hình như Git ignore không hoạt động ?</title>
         <link>https://tbm98.github.io/posts/gitignore-khong-hoat-dong/</link>
         <pubDate>Sat, 25 Apr 2020 23:41:24 +0700</pubDate>

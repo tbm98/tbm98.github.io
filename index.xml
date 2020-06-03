@@ -43,11 +43,29 @@
 
       
       <item>
+        <title>New Post</title>
+        <link>https://tbm98.github.io/posts/new-post/</link>
+        <pubDate>Tue, 02 Jun 2020 16:38:36 +0700</pubDate>
+        <author>tbm98.dev@gmail.com (tbm98)</author>
+        <atom:modified>Wed, 03 Jun 2020 10:48:48 +0700</atom:modified>
+        <guid>https://tbm98.github.io/posts/new-post/</guid>
+        <description>##hello</description>
+        
+        <dc:creator>tbm98</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Hình như Git ignore không hoạt động ?</title>
         <link>https://tbm98.github.io/posts/gitignore-khong-hoat-dong/</link>
         <pubDate>Sat, 25 Apr 2020 23:41:24 +0700</pubDate>
         <author>tbm98.dev@gmail.com (tbm98)</author>
-        <atom:modified>Sun, 26 Apr 2020 00:55:08 +0700</atom:modified>
+        <atom:modified>Wed, 03 Jun 2020 10:48:48 +0700</atom:modified>
         <guid>https://tbm98.github.io/posts/gitignore-khong-hoat-dong/</guid>
         <description>Vấn đề Mình đã gặp trường hợp là rõ ràng đã thêm một vài file vào .gitignore rồi nhưng thi thoảng vẫn thấy sự thay đổi của nó hiện lên git status. Vậy nguyên nhân là gì? Có phải git bị lỗi không?
 Ví dụ trong project hiện tại mình đang code, bây giờ mình không muốn up file main.dart lên mỗi khi thay đổi nó nữa. Như ở đây là file main.</description>
@@ -72,7 +90,7 @@ Ví dụ trong project hiện tại mình đang code, bây giờ mình không mu
         <link>https://tbm98.github.io/posts/su-dung-chung-changenotifier-cho-nhieu-page-flutter/</link>
         <pubDate>Fri, 24 Apr 2020 14:11:02 +0700</pubDate>
         <author>tbm98.dev@gmail.com (tbm98)</author>
-        <atom:modified>Fri, 24 Apr 2020 22:30:00 +0700</atom:modified>
+        <atom:modified>Wed, 03 Jun 2020 10:48:48 +0700</atom:modified>
         <guid>https://tbm98.github.io/posts/su-dung-chung-changenotifier-cho-nhieu-page-flutter/</guid>
         <description>Vấn đề ? Mình có 1 page là profile và login, ở profile mình sử dụng ChangeNotifierProvider để cung cấp một lớp ChangeNotifier (tạm gọi là lớp state) có nhiệm vụ lưu giữ thông tin user hiện tại. Trong trường hợp chưa đăng nhập thì sẽ hiển thị nút đăng nhập yêu cầu chuyển sang page login để người dùng đăng nhập. Sau khi đăng nhập xong sẽ pop quay trở lại page profile.</description>
         

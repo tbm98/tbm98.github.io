@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hình như Git ignore không hoạt động ? – TBM98&#39;s Blog</title>
+    <title>Quản lý trạng thái với Provider và StateNotifier – TBM98&#39;s Blog</title>
     
 
 
@@ -551,7 +551,7 @@
 
   
     
-    var permalink = JSON.parse("\"https://tbm98.github.io/posts/gitignore-khong-hoat-dong/\"");
+    var permalink = JSON.parse("\"https://tbm98.github.io/posts/quan-ly-trang-thai-voi-provider-va-statenotifier/\"");
     var searchResults = null;
     var searchMenu = null;
     var searchText = null;
@@ -1203,24 +1203,24 @@
 
 
     
-<meta name="description" content="Mình đã gặp trường hợp là rõ ràng đã thêm một vài file vào .gitignore rồi nhưng thi thoảng vẫn thấy sự thay đổi của nó hiện lên git status. Vậy nguyên nhân là gì? Có phải git bị lỗi không?" />
+<meta name="description" content="StateNotifier khá giống với ValueNotifier nhưng khắc phục được một số vấn đề của ValueNotifier." />
 
 
-<meta name="keywords" content="git">
+<meta name="keywords" content="flutter">
 
-<meta name="created" content="2020-04-25T23:41:24&#43;0700">
-<meta name="modified" content="2020-06-03T10:48:48&#43;0700">
-<meta property="article:published_time" content="2020-04-25T23:41:24&#43;0700">
+<meta name="created" content="2020-06-13T22:45:57&#43;0700">
+<meta name="modified" content="2020-06-13T22:45:57&#43;0700">
+<meta property="article:published_time" content="2020-06-13T22:45:57&#43;0700">
 
 <meta name="author" content="tbm98">
-<meta property="article:author" content="https://tbm98.github.io/posts/gitignore-khong-hoat-dong/@tbm98">
+<meta property="article:author" content="https://tbm98.github.io/posts/quan-ly-trang-thai-voi-provider-va-statenotifier/@tbm98">
 
 
 <meta property="og:site_name" content="TBM98&#39;s Blog">
-<meta property="og:title" content="Hình như Git ignore không hoạt động ?">
-<meta property="og:url" content="https://tbm98.github.io/posts/gitignore-khong-hoat-dong/">
+<meta property="og:title" content="Quản lý trạng thái với Provider và StateNotifier">
+<meta property="og:url" content="https://tbm98.github.io/posts/quan-ly-trang-thai-voi-provider-va-statenotifier/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="Mình đã gặp trường hợp là rõ ràng đã thêm một vài file vào .gitignore rồi nhưng thi thoảng vẫn thấy sự thay đổi của nó hiện lên git status. Vậy nguyên nhân là gì? Có phải git bị lỗi không?">
+<meta property="og:description" content="StateNotifier khá giống với ValueNotifier nhưng khắc phục được một số vấn đề của ValueNotifier.">
 
 <meta name="generator" content="Hugo 0.71.1" />
 <meta name="msapplication-TileColor" content="#fff">
@@ -1231,7 +1231,7 @@
 
 <meta name="apple-mobile-web-app-status-bar-style" content="#fff">
 
-<link rel="canonical" href="https://tbm98.github.io/posts/gitignore-khong-hoat-dong/">
+<link rel="canonical" href="https://tbm98.github.io/posts/quan-ly-trang-thai-voi-provider-va-statenotifier/">
 
 <link rel="manifest" href="/manifest.json">
 
@@ -1257,12 +1257,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "Hình như Git ignore không hoạt động ?",
-    "datePublished": "2020-04-25T23:41:24+07:00",
-    "dateModified": "2020-06-03T10:48:48+07:00",
-    "url" : "https://tbm98.github.io/posts/gitignore-khong-hoat-dong/",
-    "description": "Mình đã gặp trường hợp là rõ ràng đã thêm một vài file vào .gitignore rồi nhưng thi thoảng vẫn thấy sự thay đổi của nó hiện lên git status. Vậy nguyên nhân là gì? Có phải git bị lỗi không?",
-    "keywords": ["git"],
+    "headline": "Quản lý trạng thái với Provider và StateNotifier",
+    "datePublished": "2020-06-13T22:45:57+07:00",
+    "dateModified": "2020-06-13T22:45:57+07:00",
+    "url" : "https://tbm98.github.io/posts/quan-ly-trang-thai-voi-provider-va-statenotifier/",
+    "description": "StateNotifier khá giống với ValueNotifier nhưng khắc phục được một số vấn đề của ValueNotifier.",
+    "keywords": ["flutter"],
     "author": {
       "@type": "Person",
       "name": "tbm98"
@@ -1502,7 +1502,7 @@
   
   <li  class="is-active" >
     
-      <span>Hình như Git ignore không hoạt động ?</span>
+      <span>Quản lý trạng thái với Provider và StateNotifier</span>
     
   </li>
   
@@ -1514,15 +1514,13 @@
   <div class="single ">
     <div class="single__nojs">This page looks best with JavaScript enabled</div>
     <script>document.querySelector('.single').classList.remove('hide'); document.querySelector('.single__nojs').classList.add('hide');</script>
-    <h2 class="single__title" data-ani="true">Hình như Git ignore không hoạt động ?</h2>
+    <h2 class="single__title" data-ani="true">Quản lý trạng thái với Provider và StateNotifier</h2>
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="Written At">📅&nbsp;Apr 25, 2020 </time>
+  <time class="single__info" title="Written At">📅&nbsp;Jun 13, 2020 </time>
   
-  &nbsp;&middot;&nbsp; <time class="single__info" title="Modified At"> 📝&nbsp;Jun 3, 2020 </time>
-  
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;2&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;9&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">✍️&nbsp;tbm98</span>
   
@@ -1536,50 +1534,595 @@
   🏷️
   
 
-  <li><a href="https://tbm98.github.io/tags/git/" class="single__tag" title="git">#git</a></li>
+  <li><a href="https://tbm98.github.io/tags/flutter/" class="single__tag" title="flutter">#flutter</a></li>
 
 </ul>
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <h2 id="vấn-đề">Vấn đề</h2>
-<p>Mình đã gặp trường hợp là rõ ràng đã thêm một vài file vào .gitignore rồi nhưng thi thoảng vẫn thấy sự thay đổi của nó hiện lên git status. Vậy nguyên nhân là gì? Có phải git bị lỗi không?</p>
-<p>Ví dụ trong project hiện tại mình đang code, bây giờ mình không muốn up file <code>main.dart</code> lên mỗi khi thay đổi nó nữa. Như ở đây là file <code>main.dart</code> đang có sự thay đổi và nó được liệt kê ở mục <code>Unstaged Changes</code>.<br />
-<img src="/images/gitignore-khong-hoat-dong/a.png" alt="hihi" /><br />
-<img src="/images/gitignore-khong-hoat-dong/b.png" alt="hihi" /><br />
-Bây giờ mình sẽ ignore file này giống như hình bên dưới, tool nó sẽ tự động thêm đúng đường dẫn tới file đó vào trong file <code>.gitignore</code> giúp mình :D.<br />
-<img src="/images/gitignore-khong-hoat-dong/c.png" alt="hihi" /><br />
-Như cái hình bên dưới là nó đã thêm ok rồi đó.<br />
-<img src="/images/gitignore-khong-hoat-dong/d.png" alt="hihi" /><br />
-Nhưng mà để ý cái phần <code>Unstaged Changes</code> kìa, file main.dart vẫn còn đó lẽ ra nó phải biến mất khỏi phần đó chứ nhỉ.</p>
-<h2 id="nguyên-nhân">Nguyên nhân</h2>
-<p>Lý do trong trường hợp này đó là cái file <code>main.dart</code> của mình đã từng được commit từ trước đó rồi, và git nó đã lưu trong cache rồi và đó là những file cần lắng nghe sự thay đổi, nó sẽ không quan tâm là ở trong <code>.gitignore</code> có liệt kê file đó ra hay là không.</p>
-<p>Ok biết nguyên nhân rồi thì giờ làm gì để khắc phục ?</p>
-<h2 id="giải-pháp">Giải pháp</h2>
-<p>Đây là câu lệnh sẽ giúp mình xoá đi cache của file mà mình muốn (nó là lệnh của git nên hệ điều hành nào cũng như vậy nha, có thể trên Windows thì các trỏ đường dẫn của nó khác chút thôi).</p>
+      <p>Hello!<br />
+Nếu bạn đã từng sử dụng Provider thì chắc hẳn bạn cũng sẽ tận dụng luôn <code>ChangeNotifierProvider</code> hoặc <code>ValueListenableProvider</code> hoặc cái gì gì đó tương tự để quản lý &ldquo;Nhà nước&rdquo; luôn cho tiện đúng không.<br />
+<code>ChangeNotifier</code> thì mình đã dùng khá nhiều, đối với những screen có state đơn giản thì kiểm soát nó khá dễ và code cũng rất gọn, nhưng nếu với những screen có state phức tạp, cần quản lý rất nhiều trường thì nó dẫn tới tình trạng là toàn bộ <code>getters</code> vốn lẽ ra chỉ nên đặt tại <code>Model</code>/<code>State</code> thì giờ lại phải mang toàn bộ chúng paste vào <code>ChangeNotifier</code> thêm một lần nữa. Bên dưới là một đoạn code trong project cũ của mình.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-dart" data-lang="dart"><span class="kd">class</span> <span class="nc">MainNotifier</span> <span class="kd">with</span> <span class="n">ChangeNotifier</span> <span class="p">{</span>
+  <span class="n">MainModel</span> <span class="n">_mainModel</span><span class="p">;</span>
+  <span class="n">StreamController</span> <span class="n">_streamController</span> <span class="o">=</span> <span class="n">StreamController</span><span class="p">();</span>
+  <span class="n">Notification</span> <span class="n">_notification</span><span class="p">;</span>
+
+  <span class="n">MainNotifier</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">_mainModel</span> <span class="o">=</span> <span class="n">MainModel</span><span class="p">();</span>
+    <span class="n">insertProfileGuest</span><span class="p">();</span>
+    <span class="n">loadCurrentMSV</span><span class="p">();</span>
+    <span class="n">loadAllProfile</span><span class="p">();</span>
+    <span class="n">_notification</span> <span class="o">=</span> <span class="n">Notification</span><span class="p">();</span>
+  <span class="p">}</span>
+
+  <span class="kd">get</span> <span class="n">getAllProfile</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">allProfile</span><span class="p">;</span>
+
+  <span class="kd">get</span> <span class="n">getClickedDay</span> <span class="o">=&gt;</span> <span class="n">DateTime</span><span class="p">(</span>
+      <span class="n">_mainModel</span><span class="p">.</span><span class="n">clickYear</span><span class="p">,</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">clickMonth</span><span class="p">,</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">clickDay</span><span class="p">);</span>
+
+  <span class="n">Stream</span> <span class="kd">get</span> <span class="n">getStreamAction</span> <span class="o">=&gt;</span> <span class="n">_streamController</span><span class="p">.</span><span class="n">stream</span><span class="p">;</span>
+
+  <span class="n">Sink</span> <span class="kd">get</span> <span class="n">inputAction</span> <span class="o">=&gt;</span> <span class="n">_streamController</span><span class="p">.</span><span class="n">sink</span><span class="p">;</span>
+
+  <span class="kt">String</span> <span class="kd">get</span> <span class="n">getTitle</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">title</span><span class="p">;</span>
+
+  <span class="kd">get</span> <span class="n">getDataSchedules</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">dataSchedules</span><span class="p">;</span>
+
+  <span class="kd">get</span> <span class="n">getWidth</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">width</span><span class="p">;</span>
+
+  <span class="kd">get</span> <span class="n">getItemWidth</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">itemWidth</span><span class="p">;</span>
+
+  <span class="kd">get</span> <span class="n">getItemHeight</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">itemHeight</span><span class="p">;</span>
+
+  <span class="kd">get</span> <span class="n">getDrawerHeaderHeight</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">drawerHeaderHeight</span><span class="p">;</span>
+
+  <span class="kt">String</span> <span class="kd">get</span> <span class="n">getName</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">_mainModel</span><span class="p">.</span><span class="n">msv</span> <span class="o">==</span> <span class="s1">&#39;guest&#39;</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="s1">&#39;Khách&#39;</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">_mainModel</span><span class="o">?</span><span class="p">.</span><span class="n">profile</span><span class="o">?</span><span class="p">.</span><span class="n">HoTen</span> <span class="o">??</span> <span class="s1">&#39;Họ Tên&#39;</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="kt">String</span> <span class="kd">get</span> <span class="n">getClass</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="o">?</span><span class="p">.</span><span class="n">profile</span><span class="o">?</span><span class="p">.</span><span class="n">Lop</span> <span class="o">??</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+
+  <span class="kt">String</span> <span class="kd">get</span> <span class="n">getToken</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="o">?</span><span class="p">.</span><span class="n">profile</span><span class="o">?</span><span class="p">.</span><span class="n">Token</span> <span class="o">??</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+
+  <span class="n">Map</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Schedule</span><span class="o">&gt;&gt;</span> <span class="kd">get</span> <span class="n">getEntriesOfDay</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">entriesOfDay</span><span class="p">;</span>
+
+  <span class="kd">get</span> <span class="n">getTableHeight</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">tableHeight</span><span class="p">;</span>
+
+  <span class="kd">get</span> <span class="n">getClickMonth</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">clickMonth</span><span class="p">;</span>
+
+  <span class="kd">get</span> <span class="n">getDateCurrentClick</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">getDateCurrentClick</span><span class="p">;</span>
+
+  <span class="kd">get</span> <span class="n">getKeyOfCurrentEntries</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">keyOfCurrentEntries</span><span class="p">;</span>
+
+  <span class="kt">int</span> <span class="kd">get</span> <span class="n">getCurrentDay</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">currentDay</span><span class="p">;</span>
+
+  <span class="kt">int</span> <span class="kd">get</span> <span class="n">getCurrentMonth</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">currentMonth</span><span class="p">;</span>
+
+  <span class="kt">int</span> <span class="kd">get</span> <span class="n">getCurrentYear</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">currentYear</span><span class="p">;</span>
+
+  <span class="kt">int</span> <span class="kd">get</span> <span class="n">getClickDay</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">clickDay</span><span class="p">;</span>
+
+  <span class="kt">String</span> <span class="kd">get</span> <span class="n">getMSV</span> <span class="o">=&gt;</span> <span class="n">_mainModel</span><span class="p">.</span><span class="n">msv</span><span class="p">;</span>
+
+  <span class="kt">bool</span> <span class="kd">get</span> <span class="n">isGuest</span> <span class="o">=&gt;</span>
+      <span class="n">getMSV</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">||</span>
+      <span class="n">getMSV</span> <span class="o">==</span> <span class="s1">&#39;guest&#39;</span> <span class="o">||</span>
+      <span class="n">getName</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">||</span>
+      <span class="n">getName</span> <span class="o">==</span> <span class="s1">&#39;Họ Tên&#39;</span><span class="p">;</span>
+
+  <span class="kt">String</span> <span class="kd">get</span> <span class="n">getAvatarName</span> <span class="p">{</span>
+    <span class="kd">final</span> <span class="n">name</span> <span class="o">=</span> <span class="n">getName</span><span class="p">;</span>
+    <span class="kd">final</span> <span class="n">splitName</span> <span class="o">=</span> <span class="n">name</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">);</span>
+    <span class="k">return</span> <span class="n">splitName</span><span class="p">.</span><span class="n">last</span><span class="p">[</span><span class="m">0</span><span class="p">];</span>
+  <span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Khá là dài dòng đúng không nhỉ :3<br />
+Đó là vấn đề của <code>ChangeNotifier</code>, mình nghĩ ra một cách giải quyết vấn đề đó là không expose toàn bộ các trường của state nữa mà thay vào đó thì chỉ expose duy nhất là state object thôi. Tới đây thì <code>ValueNotifier</code> sẽ là giải phát phù hợp hơn vì nó chỉ cần lắng nghe thay đổi của đúng một thằng là <code>State</code> thôi.</p>
+<h2 id="giới-thiệu-package">Giới thiệu package</h2>
+<p>Mình mới đi lang thang trên mạng và tìm thấy thằng <code>StateNotifier</code> được giới thiệu là tương đồng với <code>ValueNotifier</code> nhưng khắc phục được một số vấn đề của <code>ValueNotifier</code> và <code>ChangeNotifier</code> nên tò mò sử dụng thử.<br />
+Một vài thông tin thêm về <code>StateNotifier</code> đó là tác giả của nó cũng chính là tác giả của package <code>Provider</code> nên mình cũng thêm phần tin tưởng :D<br />
+Sự khác nhau giữa <code>ValueNotifier</code> và <code>StateNotifier</code> bạn có thể xem tại đây <a href="https://pub.dev/packages/state_notifier#differences-with-valuenotifier">differences-with-valuenotifier</a>.</p>
+<h2 id="tạo-một-statenotifier">Tạo một StateNotifier</h2>
+<p>Bây giờ hãy thử tạo một class <code>StateNotifier</code> của riêng mình để quản lý trạng thái nha.<br />
+<code>StateNotifier</code> là một abstract class nên mình phải tạo 1 class <code>extends StateNotifier&lt;State&gt;</code> trong đó State chính là <code>type</code> của state object của mình.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-dart" data-lang="dart"><span class="kd">class</span> <span class="nc">MyStateNotifier</span> <span class="kd">extends</span> <span class="n">StateNotifier</span><span class="o">&lt;</span><span class="n">MyState</span><span class="o">&gt;</span> <span class="kd">with</span> <span class="n">LocatorMixin</span> <span class="p">{</span>
+
+  <span class="c1">// LocatorMixin là một mixin giúp class của mình giao tiếp với provider để lấy ra
+</span><span class="c1"></span>  <span class="c1">// được thứ mình cần mà không dùng tới context
+</span><span class="c1"></span>
+  <span class="c1">// Constructor mặc định nó yêu cầu gọi tới `super` và truyền vào một khởi tạo của state
+</span><span class="c1"></span>  <span class="n">MyStateNotifier</span><span class="p">()</span> <span class="o">:</span> <span class="k">super</span><span class="p">(</span><span class="n">MyState</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="nl">name:</span> <span class="s1">&#39;tbm98&#39;</span><span class="p">));</span>
+
+  <span class="c1">// Ở đây chú ý: muốn StateNotifier nhận ra được có sự thay đổi của state
+</span><span class="c1"></span>  <span class="c1">// thì buộc chúng ta phải tạo ra một instance mới của state mỗi lần muốn cập
+</span><span class="c1"></span>  <span class="c1">// nhật một thứ gì đó.
+</span><span class="c1"></span>  <span class="kt">void</span> <span class="n">increA</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">state</span> <span class="o">=</span> <span class="n">state</span><span class="p">.</span><span class="n">copyWith</span><span class="p">(</span><span class="nl">a:</span> <span class="n">state</span><span class="p">.</span><span class="n">a</span> <span class="o">+</span> <span class="m">1</span><span class="p">);</span>
+  <span class="p">}</span>
+
+  <span class="kt">void</span> <span class="n">increB</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">state</span> <span class="o">=</span> <span class="n">state</span><span class="p">.</span><span class="n">copyWith</span><span class="p">(</span><span class="nl">b:</span> <span class="n">state</span><span class="p">.</span><span class="n">b</span> <span class="o">+</span> <span class="m">1</span><span class="p">);</span>
+  <span class="p">}</span>
+
+  <span class="kt">void</span> <span class="n">increC</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">state</span> <span class="o">=</span> <span class="n">state</span><span class="p">.</span><span class="n">copyWith</span><span class="p">(</span><span class="nl">c:</span> <span class="n">state</span><span class="p">.</span><span class="n">c</span> <span class="o">+</span> <span class="m">1</span><span class="p">);</span>
+  <span class="p">}</span>
+
+  <span class="kt">void</span> <span class="n">increD</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">state</span> <span class="o">=</span> <span class="n">state</span><span class="p">.</span><span class="n">copyWith</span><span class="p">(</span><span class="nl">d:</span> <span class="n">state</span><span class="p">.</span><span class="n">d</span> <span class="o">+</span> <span class="m">1</span><span class="p">);</span>
+  <span class="p">}</span>
+
+
+  <span class="c1">// @protected ở đây nghĩa là nó sẽ cảnh báo nếu như bạn
+</span><span class="c1"></span>  <span class="c1">// truy cập tới biến state từ một class không liên quan với lớp này
+</span><span class="c1"></span>  <span class="c1">// chi tiết hơn thì bạn có thể bật auto show documents when mouse move
+</span><span class="c1"></span>  <span class="c1">// và di chuyển con chuột vào từ đó hoặc giữ Ctrl/Cmd + click chuột phải
+</span><span class="c1"></span>  <span class="c1">// vào từ đó :D
+</span><span class="c1"></span>  <span class="err">@</span><span class="n">override</span>
+  <span class="err">@</span><span class="n">protected</span>
+  <span class="kd">set</span> <span class="n">state</span><span class="p">(</span><span class="n">MyState</span> <span class="n">value</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">state</span> <span class="o">!=</span> <span class="n">value</span><span class="p">)</span> <span class="p">{</span>
+      <span class="c1">// Ở đây có thể làm thứ gì đó mỗi khi state thay đổi
+</span><span class="c1"></span>      <span class="c1">// state là trạng thái cũ và value là trạng thái mới
+</span><span class="c1"></span>      <span class="c1">// như nói ở trên, nếu không tạo ra 1 instance khác thì
+</span><span class="c1"></span>      <span class="c1">// state sẽ luôn luôn = value và chả có gì xảy ra cả :D
+</span><span class="c1"></span>      <span class="n">read</span><span class="o">&lt;</span><span class="n">Logger</span><span class="o">&gt;</span><span class="p">().</span><span class="n">countChanged</span><span class="p">(</span><span class="n">value</span><span class="p">.</span><span class="n">sumWithName</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">super</span><span class="p">.</span><span class="n">state</span> <span class="o">=</span> <span class="n">value</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Như mình đã comment trong code thì chúng ta cần chú ý rằng: muốn StateNotifier nhận ra được có sự thay đổi của state thì buộc chúng ta phải tạo ra một instance mới của state mỗi lần muốn cập nhật một thứ gì đó.</p>
+<h2 id="tạo-một-state">Tạo một State</h2>
+<p>Vậy là mình đã tạo xong 1 lớp kết thừa <code>StateNotifier</code> rồi bây giờ sẽ tới bước tạo <code>State</code> chính là cái <code>class MyState</code> ở trên đó.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-dart" data-lang="dart"><span class="err">@</span><span class="n">freezed</span>
+<span class="kd">abstract</span> <span class="kd">class</span> <span class="nc">MyState</span> <span class="kd">implements</span> <span class="n">_$MyState</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="n">MyState</span><span class="p">.</span><span class="n">_</span><span class="p">();</span>
+  <span class="kd">const</span> <span class="kd">factory</span> <span class="n">MyState</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">,</span> <span class="kt">int</span> <span class="n">c</span><span class="p">,</span> <span class="kt">int</span> <span class="n">d</span><span class="p">,</span> <span class="p">{</span><span class="kt">String</span> <span class="n">name</span><span class="p">})</span> <span class="o">=</span> <span class="n">_MyState</span><span class="p">;</span>
+  <span class="kt">String</span> <span class="kd">get</span> <span class="n">sumWithName</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="s1">&#39;</span><span class="si">$</span><span class="n">name</span><span class="s1"> has </span><span class="si">${</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="o">+</span> <span class="n">d</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Như đã đề cập ở trên thì muốn thông báo rằng state thay đổi thì cần tạo ra một instance khác của state. Và mình lại tìm được 1 package nữa hỗ trợ tạo ra một object cứng (không có sự thay đổi về giá trị bên trong) tên là <code>Freezed</code> cũng do tác giả của <code>Provider</code> tạo ra luôn :D. Thông tin chi tiết về package này bạn có thể xem thêm tại đây <a href="https://pub.dev/packages/freezed">Freezed</a>.<br />
+Sở dĩ mình đưa phần tạo State này về sau là bởi ở <code>StateNotifier</code> cần tạo mới instance state mỗi lần update nên mình giới thiệu sau cho dễ hiểu.<br />
+Nếu như bạn không muốn sử dụng Freezed thì có thể tạo một class thế này</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-dart" data-lang="dart"><span class="kd">class</span> <span class="nc">MyState</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="n">MyState</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">,</span> <span class="kt">int</span> <span class="n">c</span><span class="p">,</span> <span class="kt">int</span> <span class="n">d</span><span class="p">,</span> <span class="kt">String</span> <span class="n">name</span><span class="p">);</span>
+  <span class="kd">final</span> <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
+  <span class="kd">final</span> <span class="kt">int</span> <span class="n">b</span><span class="p">;</span>
+  <span class="kd">final</span> <span class="kt">int</span> <span class="n">c</span><span class="p">;</span>
+  <span class="kd">final</span> <span class="kt">int</span> <span class="n">d</span><span class="p">;</span>
+  <span class="kd">final</span> <span class="kt">String</span> <span class="n">name</span><span class="p">;</span>
+  <span class="kt">String</span> <span class="kd">get</span> <span class="n">sumWithName</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="s1">&#39;</span><span class="si">$</span><span class="n">name</span><span class="s1"> has </span><span class="si">${</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span> <span class="o">+</span> <span class="n">d</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="tạo-một-view">Tạo một View</h2>
+<p>Phần trạng thái và quản lý trạng thái đã xong rồi, bây giờ tới phần cuối dùng là phần <code>View</code>.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">  1
+</span><span class="lnt">  2
+</span><span class="lnt">  3
+</span><span class="lnt">  4
+</span><span class="lnt">  5
+</span><span class="lnt">  6
+</span><span class="lnt">  7
+</span><span class="lnt">  8
+</span><span class="lnt">  9
+</span><span class="lnt"> 10
+</span><span class="lnt"> 11
+</span><span class="lnt"> 12
+</span><span class="lnt"> 13
+</span><span class="lnt"> 14
+</span><span class="lnt"> 15
+</span><span class="lnt"> 16
+</span><span class="lnt"> 17
+</span><span class="lnt"> 18
+</span><span class="lnt"> 19
+</span><span class="lnt"> 20
+</span><span class="lnt"> 21
+</span><span class="lnt"> 22
+</span><span class="lnt"> 23
+</span><span class="lnt"> 24
+</span><span class="lnt"> 25
+</span><span class="lnt"> 26
+</span><span class="lnt"> 27
+</span><span class="lnt"> 28
+</span><span class="lnt"> 29
+</span><span class="lnt"> 30
+</span><span class="lnt"> 31
+</span><span class="lnt"> 32
+</span><span class="lnt"> 33
+</span><span class="lnt"> 34
+</span><span class="lnt"> 35
+</span><span class="lnt"> 36
+</span><span class="lnt"> 37
+</span><span class="lnt"> 38
+</span><span class="lnt"> 39
+</span><span class="lnt"> 40
+</span><span class="lnt"> 41
+</span><span class="lnt"> 42
+</span><span class="lnt"> 43
+</span><span class="lnt"> 44
+</span><span class="lnt"> 45
+</span><span class="lnt"> 46
+</span><span class="lnt"> 47
+</span><span class="lnt"> 48
+</span><span class="lnt"> 49
+</span><span class="lnt"> 50
+</span><span class="lnt"> 51
+</span><span class="lnt"> 52
+</span><span class="lnt"> 53
+</span><span class="lnt"> 54
+</span><span class="lnt"> 55
+</span><span class="lnt"> 56
+</span><span class="lnt"> 57
+</span><span class="lnt"> 58
+</span><span class="lnt"> 59
+</span><span class="lnt"> 60
+</span><span class="lnt"> 61
+</span><span class="lnt"> 62
+</span><span class="lnt"> 63
+</span><span class="lnt"> 64
+</span><span class="lnt"> 65
+</span><span class="lnt"> 66
+</span><span class="lnt"> 67
+</span><span class="lnt"> 68
+</span><span class="lnt"> 69
+</span><span class="lnt"> 70
+</span><span class="lnt"> 71
+</span><span class="lnt"> 72
+</span><span class="lnt"> 73
+</span><span class="lnt"> 74
+</span><span class="lnt"> 75
+</span><span class="lnt"> 76
+</span><span class="lnt"> 77
+</span><span class="lnt"> 78
+</span><span class="lnt"> 79
+</span><span class="lnt"> 80
+</span><span class="lnt"> 81
+</span><span class="lnt"> 82
+</span><span class="lnt"> 83
+</span><span class="lnt"> 84
+</span><span class="lnt"> 85
+</span><span class="lnt"> 86
+</span><span class="lnt"> 87
+</span><span class="lnt"> 88
+</span><span class="lnt"> 89
+</span><span class="lnt"> 90
+</span><span class="lnt"> 91
+</span><span class="lnt"> 92
+</span><span class="lnt"> 93
+</span><span class="lnt"> 94
+</span><span class="lnt"> 95
+</span><span class="lnt"> 96
+</span><span class="lnt"> 97
+</span><span class="lnt"> 98
+</span><span class="lnt"> 99
+</span><span class="lnt">100
+</span><span class="lnt">101
+</span><span class="lnt">102
+</span><span class="lnt">103
+</span><span class="lnt">104
+</span><span class="lnt">105
+</span><span class="lnt">106
+</span><span class="lnt">107
+</span><span class="lnt">108
+</span><span class="lnt">109
+</span><span class="lnt">110
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-dart" data-lang="dart"><span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">runApp</span><span class="p">(</span>
+    <span class="n">MultiProvider</span><span class="p">(</span>
+      <span class="nl">providers:</span> <span class="p">[</span>
+        <span class="n">Provider</span><span class="o">&lt;</span><span class="n">Logger</span><span class="o">&gt;</span><span class="p">(</span><span class="nl">create:</span> <span class="p">(</span><span class="n">_</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">ConsoleLogger</span><span class="p">()),</span>
+        <span class="n">StateNotifierProvider</span><span class="o">&lt;</span><span class="n">MyStateNotifier</span><span class="p">,</span> <span class="n">MyState</span><span class="o">&gt;</span><span class="p">(</span>
+          <span class="nl">create:</span> <span class="p">(</span><span class="n">_</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">MyStateNotifier</span><span class="p">(),</span>
+          <span class="nl">builder:</span> <span class="p">(</span><span class="n">context</span><span class="p">,</span> <span class="n">child</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="n">child</span><span class="p">;</span>
+          <span class="p">},</span>
+        <span class="p">),</span>
+      <span class="p">],</span>
+      <span class="nl">child:</span> <span class="n">MyApp</span><span class="p">(),</span>
+    <span class="p">),</span>
+  <span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kd">class</span> <span class="nc">MyApp</span> <span class="kd">extends</span> <span class="n">StatelessWidget</span> <span class="p">{</span>
+  <span class="err">@</span><span class="n">override</span>
+  <span class="n">Widget</span> <span class="n">build</span><span class="p">(</span><span class="n">BuildContext</span> <span class="n">context</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="kd">const</span> <span class="n">MaterialApp</span><span class="p">(</span>
+      <span class="nl">title:</span> <span class="s1">&#39;Flutter Demo&#39;</span><span class="p">,</span>
+      <span class="nl">home:</span> <span class="n">MyHomePage</span><span class="p">(),</span>
+    <span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">class</span> <span class="nc">MyHomePage</span> <span class="kd">extends</span> <span class="n">StatelessWidget</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="n">MyHomePage</span><span class="p">({</span><span class="n">Key</span> <span class="n">key</span><span class="p">})</span> <span class="o">:</span> <span class="k">super</span><span class="p">(</span><span class="nl">key:</span> <span class="n">key</span><span class="p">);</span>
+
+  <span class="n">Widget</span> <span class="n">_titleContent</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">print</span><span class="p">(</span><span class="s1">&#39;rebuild title content&#39;</span><span class="p">);</span>
+    <span class="k">return</span> <span class="kd">const</span> <span class="n">Text</span><span class="p">(</span>
+      <span class="s1">&#39;You have pushed the button this many times:&#39;</span><span class="p">,</span>
+    <span class="p">);</span>
+  <span class="p">}</span>
+
+  <span class="err">@</span><span class="n">override</span>
+  <span class="n">Widget</span> <span class="n">build</span><span class="p">(</span><span class="n">BuildContext</span> <span class="n">context</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">Scaffold</span><span class="p">(</span>
+      <span class="nl">appBar:</span> <span class="n">AppBar</span><span class="p">(</span>
+        <span class="nl">title:</span> <span class="kd">const</span> <span class="n">Text</span><span class="p">(</span><span class="s1">&#39;Counter example&#39;</span><span class="p">),</span>
+      <span class="p">),</span>
+      <span class="nl">body:</span> <span class="n">Center</span><span class="p">(</span>
+        <span class="nl">child:</span> <span class="n">Column</span><span class="p">(</span>
+          <span class="nl">mainAxisAlignment:</span> <span class="n">MainAxisAlignment</span><span class="p">.</span><span class="n">center</span><span class="p">,</span>
+          <span class="nl">children:</span> <span class="o">&lt;</span><span class="n">Widget</span><span class="o">&gt;</span><span class="p">[</span>
+            <span class="n">_titleContent</span><span class="p">(),</span>
+            <span class="n">Selector</span><span class="o">&lt;</span><span class="n">MyState</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span><span class="p">(</span>
+              <span class="nl">selector:</span> <span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">myState</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">myState</span><span class="p">.</span><span class="n">a</span><span class="p">,</span>
+              <span class="nl">builder:</span> <span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">__</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">return</span> <span class="n">Text</span><span class="p">(</span><span class="n">value</span><span class="p">.</span><span class="n">toString</span><span class="p">());</span>
+              <span class="p">},</span>
+            <span class="p">),</span>
+            <span class="n">Divider</span><span class="p">(),</span>
+            <span class="n">Selector</span><span class="o">&lt;</span><span class="n">MyState</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span><span class="p">(</span>
+              <span class="nl">selector:</span> <span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">myState</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">myState</span><span class="p">.</span><span class="n">b</span><span class="p">,</span>
+              <span class="nl">builder:</span> <span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">__</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">return</span> <span class="n">Text</span><span class="p">(</span><span class="n">value</span><span class="p">.</span><span class="n">toString</span><span class="p">());</span>
+              <span class="p">},</span>
+            <span class="p">),</span>
+            <span class="n">Divider</span><span class="p">(),</span>
+            <span class="n">Selector</span><span class="o">&lt;</span><span class="n">MyState</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span><span class="p">(</span>
+              <span class="nl">selector:</span> <span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">myState</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">myState</span><span class="p">.</span><span class="n">c</span><span class="p">,</span>
+              <span class="nl">builder:</span> <span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">__</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">return</span> <span class="n">Text</span><span class="p">(</span><span class="n">value</span><span class="p">.</span><span class="n">toString</span><span class="p">());</span>
+              <span class="p">},</span>
+            <span class="p">),</span>
+            <span class="n">Divider</span><span class="p">(),</span>
+            <span class="n">Selector</span><span class="o">&lt;</span><span class="n">MyState</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span><span class="p">(</span>
+              <span class="nl">selector:</span> <span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">myState</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">myState</span><span class="p">.</span><span class="n">d</span><span class="p">,</span>
+              <span class="nl">builder:</span> <span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">__</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">return</span> <span class="n">Text</span><span class="p">(</span><span class="n">value</span><span class="p">.</span><span class="n">toString</span><span class="p">());</span>
+              <span class="p">},</span>
+            <span class="p">),</span>
+          <span class="p">],</span>
+        <span class="p">),</span>
+      <span class="p">),</span>
+      <span class="nl">floatingActionButton:</span> <span class="n">Row</span><span class="p">(</span>
+        <span class="nl">mainAxisSize:</span> <span class="n">MainAxisSize</span><span class="p">.</span><span class="n">min</span><span class="p">,</span>
+        <span class="nl">children:</span> <span class="p">[</span>
+          <span class="n">FloatingActionButton</span><span class="p">(</span>
+            <span class="nl">onPressed:</span> <span class="p">()</span> <span class="p">{</span>
+              <span class="n">context</span><span class="p">.</span><span class="n">read</span><span class="o">&lt;</span><span class="n">MyStateNotifier</span><span class="o">&gt;</span><span class="p">().</span><span class="n">increA</span><span class="p">();</span>
+            <span class="p">},</span>
+            <span class="nl">child:</span> <span class="n">Text</span><span class="p">(</span><span class="s1">&#39;A&#39;</span><span class="p">),</span>
+          <span class="p">),</span>
+          <span class="n">FloatingActionButton</span><span class="p">(</span>
+            <span class="nl">onPressed:</span> <span class="p">()</span> <span class="p">{</span>
+              <span class="n">context</span><span class="p">.</span><span class="n">read</span><span class="o">&lt;</span><span class="n">MyStateNotifier</span><span class="o">&gt;</span><span class="p">().</span><span class="n">increB</span><span class="p">();</span>
+            <span class="p">},</span>
+            <span class="nl">child:</span> <span class="n">Text</span><span class="p">(</span><span class="s1">&#39;B&#39;</span><span class="p">),</span>
+          <span class="p">),</span>
+          <span class="n">FloatingActionButton</span><span class="p">(</span>
+            <span class="nl">onPressed:</span> <span class="p">()</span> <span class="p">{</span>
+              <span class="n">context</span><span class="p">.</span><span class="n">read</span><span class="o">&lt;</span><span class="n">MyStateNotifier</span><span class="o">&gt;</span><span class="p">().</span><span class="n">increC</span><span class="p">();</span>
+            <span class="p">},</span>
+            <span class="nl">child:</span> <span class="n">Text</span><span class="p">(</span><span class="s1">&#39;C&#39;</span><span class="p">),</span>
+          <span class="p">),</span>
+          <span class="n">FloatingActionButton</span><span class="p">(</span>
+            <span class="nl">onPressed:</span> <span class="p">()</span> <span class="p">{</span>
+              <span class="n">context</span><span class="p">.</span><span class="n">read</span><span class="o">&lt;</span><span class="n">MyStateNotifier</span><span class="o">&gt;</span><span class="p">().</span><span class="n">increD</span><span class="p">();</span>
+            <span class="p">},</span>
+            <span class="nl">child:</span> <span class="n">Text</span><span class="p">(</span><span class="s1">&#39;D&#39;</span><span class="p">),</span>
+          <span class="p">),</span>
+        <span class="p">],</span>
+      <span class="p">),</span>
+    <span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Ở hàm main hình có setup <code>MultiProvider</code>, bạn để ý phần này nhé</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-dart" data-lang="dart">        <span class="n">StateNotifierProvider</span><span class="o">&lt;</span><span class="n">MyStateNotifier</span><span class="p">,</span> <span class="n">MyState</span><span class="o">&gt;</span><span class="p">(</span>
+          <span class="nl">create:</span> <span class="p">(</span><span class="n">_</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">MyStateNotifier</span><span class="p">(),</span>
+          <span class="nl">builder:</span> <span class="p">(</span><span class="n">context</span><span class="p">,</span> <span class="n">child</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="n">child</span><span class="p">;</span>
+          <span class="p">},</span>
+        <span class="p">)</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Cái này cũng tương tự như <code>ChangeNotifierProvider</code> nhưng khác ở chỗ là nó cung cấp cùng lúc cả <code>StateNotifier</code> và <code>State</code>.<br />
+Có thể trong tương lai thì không cần khai báo hàm builder khi đặt trong MultiProvider nữa :3<br />
+Ở phần <code>View</code> thì vẫn sử dụng <code>Selector</code>/<code>Consumer</code>/<code>context.watch</code> &hellip; như bình thường để có thể lấy ra được <code>StateNotifier</code>/<code>State</code> và sử dụng bình thường.</p>
+<h2 id="kết-luận">Kết luận:</h2>
 <ul>
-<li>Đối với file</li>
+<li>Sử dụng <code>StateNotifier</code> sẽ làm cho phần quản lý trạng thái chỉ có chức năng là xử lý logic và cập nhật trạng thái tương ứng.</li>
+<li>State sẽ lưu trữ getters và các hàm liên quan chứ không đặt ở phần quản lý trạng thái nữa</li>
+<li>Có hiệu năng tốt hơn <code>ValueNotifier</code> (theo tác giả của package)</li>
+<li>Phân tách code giữa <code>View</code>/<code>Logic</code>/<code>Model</code> rõ ràng hơn <code>ChangeNotifier</code></li>
 </ul>
-<pre><code>git rm --cached &lt;path to file&gt;
-</code></pre><p>Ví dụ xoá file main.dart</p>
-<pre><code>git rm --cached lib/main.dart
-</code></pre><ul>
-<li>Đối với thư mục</li>
-</ul>
-<pre><code>git rm --cached -r &lt;path to folder&gt;
-</code></pre><p>Ví dụ xoá thư mục lib</p>
-<pre><code>git rm --cached -r lib
-</code></pre><p>Sau khi xoá cache xong thì nó sẽ hiện như thế này.<br />
-<img src="/images/gitignore-khong-hoat-dong/e.png" alt="hihi" /><br />
-Trong <code>Staged Changes</code> nó sẽ hiện thế này.<br />
-<img src="/images/gitignore-khong-hoat-dong/f.png" alt="hihi" /><br />
-Lệnh này chỉ xoá cache của git thôi chứ file của mình thì vẫn còn nguyên :D không ảnh hưởng gì cả, hình dưới là sau khi mình remove cache file vẫn còn nguyên.<br />
-<img src="/images/gitignore-khong-hoat-dong/g.png" alt="hihi" /><br />
-<img src="/images/gitignore-khong-hoat-dong/h.png" alt="hihi" /><br />
-Xong rồi, bây giờ nếu muốn thêm file trở lại để push lên git thì chỉ cần xoá phần liệt kê file đó trong <code>.gitignore</code> là được, nó sẽ hiện như hình dưới.<br />
-<img src="/images/gitignore-khong-hoat-dong/i.png" alt="hihi" /><br />
-Vậy là ok rồi, stage mấy cái đó vào push lên là được.<br />
-Bạn có thể để lại ý kiến bằng cách comment nha :v</p>
+<p>Toàn bộ source code, các thư viện liên quan bạn có thể xem tại <a href="https://github.com/tbm98/flutter_packages_test/tree/master/state_notifier_test">Đây</a><br />
+Hãy để lại ý kiến của bạn dưới phần bình luận nhé :D</p>
 
     </article>
     
@@ -1770,26 +2313,34 @@ Bạn có thể để lại ý kiến bằng cách comment nha :v</p>
     <section class="related">
     
     
+    <h1 class="related__title">
+      <hr class="hr-dots"/>
+      <div>
+        See Also
+      </div>
+      <hr class="hr-dots"/>
+    </h1>
+    <ul class="related-ul">
+        
+        <li>
+          <a href="/posts/su-dung-chung-changenotifier-cho-nhieu-page-flutter/" class="related__link">Sử dụng chung ChangeNotifier cho nhiều page trong Flutter</a>
+        </li>
+        
+    </ul>
+    
   </section>
     <div class="grow"></div>
 <nav class="pagination-single">
   
     
-      <a href="https://tbm98.github.io/posts/su-dung-chung-changenotifier-cho-nhieu-page-flutter/" class="pagination-single__left">
+      <a href="https://tbm98.github.io/posts/gitignore-khong-hoat-dong/" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__left-title">Sử dụng chung ChangeNotifier cho nhiều page trong Flutter</div>      
+        <div class="pagination-single__left-title">Hình như Git ignore không hoạt động ?</div>      
       </a>
     
     <div class="grow"></div>
-    
-      <a href="https://tbm98.github.io/posts/quan-ly-trang-thai-voi-provider-va-statenotifier/" class="pagination-single__right">      
-        <div class="pagination-single__right-title">Quản lý trạng thái với Provider và StateNotifier</div>
-        <div class="pagination-single__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
-        </div>
-      </a>
     
   
 </nav>
@@ -2145,9 +2696,11 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#vấn-đề">Vấn đề</a></li>
-    <li><a href="#nguyên-nhân">Nguyên nhân</a></li>
-    <li><a href="#giải-pháp">Giải pháp</a></li>
+    <li><a href="#giới-thiệu-package">Giới thiệu package</a></li>
+    <li><a href="#tạo-một-statenotifier">Tạo một StateNotifier</a></li>
+    <li><a href="#tạo-một-state">Tạo một State</a></li>
+    <li><a href="#tạo-một-view">Tạo một View</a></li>
+    <li><a href="#kết-luận">Kết luận:</a></li>
   </ul>
 </nav>
   </div>

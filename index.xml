@@ -43,6 +43,32 @@
 
       
       <item>
+        <title>Quản lý trạng thái với Provider và StateNotifier</title>
+        <link>https://tbm98.github.io/posts/quan-ly-trang-thai-voi-provider-va-statenotifier/</link>
+        <pubDate>Sat, 13 Jun 2020 22:45:57 +0700</pubDate>
+        <author>tbm98.dev@gmail.com (tbm98)</author>
+        <atom:modified>Sat, 13 Jun 2020 22:45:57 +0700</atom:modified>
+        <guid>https://tbm98.github.io/posts/quan-ly-trang-thai-voi-provider-va-statenotifier/</guid>
+        <description>Hello!
+Nếu bạn đã từng sử dụng Provider thì chắc hẳn bạn cũng sẽ tận dụng luôn ChangeNotifierProvider hoặc ValueListenableProvider hoặc cái gì gì đó tương tự để quản lý &amp;ldquo;Nhà nước&amp;rdquo; luôn cho tiện đúng không.
+ChangeNotifier thì mình đã dùng khá nhiều, đối với những screen có state đơn giản thì kiểm soát nó khá dễ và code cũng rất gọn, nhưng nếu với những screen có state phức tạp, cần quản lý rất nhiều trường thì nó dẫn tới tình trạng là toàn bộ getters vốn lẽ ra chỉ nên đặt tại Model/State thì giờ lại phải mang toàn bộ chúng paste vào ChangeNotifier thêm một lần nữa.</description>
+        
+        <dc:creator>tbm98</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>flutter</category>
+            
+          
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Hình như Git ignore không hoạt động ?</title>
         <link>https://tbm98.github.io/posts/gitignore-khong-hoat-dong/</link>
         <pubDate>Sat, 25 Apr 2020 23:41:24 +0700</pubDate>

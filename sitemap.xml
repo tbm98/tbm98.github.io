@@ -3,22 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tbm98.github.io/tags/flutter/</loc>
+    <lastmod>2020-06-13T22:45:57+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tbm98.github.io/posts/quan-ly-trang-thai-voi-provider-va-statenotifier/</loc>
+    <lastmod>2020-06-13T22:45:57+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tbm98.github.io/tags/</loc>
+    <lastmod>2020-06-13T22:45:57+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tbm98.github.io/tags/git/</loc>
     <lastmod>2020-06-03T10:48:48+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://tbm98.github.io/posts/gitignore-khong-hoat-dong/</loc>
-    <lastmod>2020-06-03T10:48:48+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tbm98.github.io/tags/</loc>
-    <lastmod>2020-06-03T10:48:48+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tbm98.github.io/tags/flutter/</loc>
     <lastmod>2020-06-03T10:48:48+07:00</lastmod>
   </url>
   

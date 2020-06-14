@@ -47,7 +47,7 @@
         <link>https://tbm98.github.io/posts/quan-ly-trang-thai-voi-provider-va-statenotifier/</link>
         <pubDate>Sat, 13 Jun 2020 22:45:57 +0700</pubDate>
         <author>tbm98.dev@gmail.com (tbm98)</author>
-        <atom:modified>Sat, 13 Jun 2020 22:45:57 +0700</atom:modified>
+        <atom:modified>Sun, 14 Jun 2020 10:37:47 +0700</atom:modified>
         <guid>https://tbm98.github.io/posts/quan-ly-trang-thai-voi-provider-va-statenotifier/</guid>
         <description>Hello!
 Nếu bạn đã từng sử dụng Provider thì chắc hẳn bạn cũng sẽ tận dụng luôn ChangeNotifierProvider hoặc ValueListenableProvider hoặc cái gì gì đó tương tự để quản lý &amp;ldquo;Nhà nước&amp;rdquo; luôn cho tiện đúng không.

@@ -1,3 +1,3 @@
 README.md
 
-My site
+My blog

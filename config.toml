@@ -76,7 +76,7 @@ theme = "LoveIt"
       # title name
       name = "tbm98"
       # you can add extra information before the name (HTML format is supported), such as icons
-      pre = "<i class=\"fab fa-blogger-b\"></i>"
+      pre = "<i class=\"fab fa-earlybirds\"></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       # LoveIt NEW | 0.2.5 whether to use typeit animation for title name

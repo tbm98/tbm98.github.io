@@ -3,7 +3,7 @@ baseURL = "https://tbm98.dev/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "My New Hugo Site"
+title = "My Blog - Notes"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "CodeIT"
@@ -18,14 +18,14 @@ theme = "CodeIT"
   # site default theme ("light", "dark", "auto")
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
-  gitRepo = ""
+  gitRepo = "https://github.com/tbm98"
   # which hash function used for SRI, when empty, no SRI is used
   # ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
   # date format
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
-  images = ["/logo.png"]
+  images = ["images/logo.jpg"]
 
   # App icon config
   [params.app]
@@ -75,9 +75,9 @@ theme = "CodeIT"
       # URL of the LOGO
       logo = ""
       # title name
-      name = ""
+      name = "tbm98"
       # you can add extra information before the name (HTML format is supported), such as icons
-      pre = ""
+      pre = "<i class=\"fas fa-laptop-code fa-fw\"></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       # whether to use typeit animation for title name
@@ -95,7 +95,7 @@ theme = "CodeIT"
     # whether to show the author
     author = true
     # Site creation time
-    since = 2019
+    since = 2021
     # ICP info only in China (HTML format is supported)
     icp = ""
     # license info (HTML format is supported)
@@ -129,14 +129,14 @@ theme = "CodeIT"
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/images/avatar.png"
+      avatarURL = "/images/logo.jpg"
       #  Alt text for avatar (default is the author name)
       avatarAlt = ""
       # title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page
       #  (HTML format is supported)
-      subtitle = "This is My New Hugo Site"
+      subtitle = "This is my blog - notes"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -154,69 +154,46 @@ theme = "CodeIT"
 
   # Social config about the author
   [params.social]
-    GitHub = "xxxx"
-    Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    GitHub = "tbm98"
+    Linkedin = "tbm98"
+    Twitter = "tbm98_"
+    Instagram = ""
+    Facebook = "tbminh.98"
+    Telegram = ""
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
     Youtubecustom = ""
     Youtubechannel = ""
-    Tumblr = ""
     Quora = ""
-    Keybase = ""
     Pinterest = ""
-    Reddit = ""
+    Reddit = "tbm98dev"
     Codepen = ""
     FreeCodeCamp = ""
     Bitbucket = ""
-    Stackoverflow = ""
-    Weibo = ""
-    Odnoklassniki = ""
-    VK = ""
-    Flickr = ""
-    Xing = ""
+    Stackoverflow = "12089581/tbm98"
     Snapchat = ""
     Soundcloud = ""
     Spotify = ""
-    Bandcamp = ""
     Paypal = ""
     Fivehundredpx = ""
-    Mix = ""
     Goodreads = ""
-    Lastfm = ""
     Foursquare = ""
     Hackernews = ""
-    Kickstarter = ""
     Patreon = ""
     Steam = ""
     Twitch = ""
     Strava = ""
     Skype = ""
     Whatsapp = ""
-    Zhihu = ""
-    Douban = ""
-    Angellist = ""
-    Slidershare = ""
-    Jsfiddle = ""
-    Deviantart = ""
-    Behance = ""
-    Dribbble = ""
     Wordpress = ""
-    Vine = ""
     Googlescholar = ""
     Researchgate = ""
     Mastodon = ""
     Thingiverse = ""
     Devto = ""
     Gitea = ""
-    XMPP = ""
-    Matrix = ""
-    Bilibili = ""
-    Email = "xxxx@xxxx.com"
+    Email = "tbm98.dev@gmail.com"
     RSS = true
     #  Open Researcher and Contributor ID
     Orcid = ""
@@ -289,32 +266,16 @@ theme = "CodeIT"
       enable = true
       Twitter = true
       Facebook = true
-      Linkedin = false
-      Whatsapp = true
+      Linkedin = true
+      Whatsapp = false
       Pinterest = false
       Tumblr = false
       HackerNews = false
-      Reddit = false
-      VK = false
-      Buffer = false
-      Xing = false
-      Line = true
-      Instapaper = false
-      Pocket = false
-      Digg = false
-      Stumbleupon = false
-      Flipboard = false
-      Weibo = true
-      Renren = false
-      Myspace = true
-      Blogger = true
-      Baidu = false
-      Odnoklassniki = false
+      Reddit = true
+      Blogger = false
       Evernote = true
       Skype = false
       Trello = false
-      Mix = false
-      #
       Telegram = false
     # Comment config
     [params.page.comment]
@@ -371,7 +332,7 @@ theme = "CodeIT"
         outlined = false
       # Commento comment config
       [params.page.comment.commento]
-        enable = true
+        enable = false
       # Utterances comment config
       [params.page.comment.utterances]
         enable = true
@@ -501,8 +462,8 @@ theme = "CodeIT"
 
 # Author config
 [author]
-  name = "xxxx"
-  email = ""
+  name = "tbm98"
+  email = "tbm98.dev"
   link = ""
 
 # Sitemap config

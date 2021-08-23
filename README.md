@@ -1,6 +1,5 @@
-README.md
+# My blog
 
-My blog
+## for update submodule
 
-# for update submodule
 `git submodule update --remote --merge`

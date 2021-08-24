@@ -7,4 +7,4 @@
 
 * Delete the now untracked submodule files: `rm -rf path_to_submodule`
 
-source: {{ < link "https://stackoverflow.com/a/1260982/12089581" > }}
+source: [How do I remove a submodule?](https://stackoverflow.com/a/1260982/12089581)

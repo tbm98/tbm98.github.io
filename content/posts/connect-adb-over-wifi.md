@@ -2,6 +2,8 @@
 title: "Connect adb over Wi-Fi"
 date: 2021-08-28T09:48:20+07:00
 draft: false
+categories: [Android]
+tags: [Android, Debug]
 ---
 
 ## For Android 11+
